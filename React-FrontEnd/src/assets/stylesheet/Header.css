@@ -1,0 +1,44 @@
+/* Header.css */
+.nav-green { background-color: #28a745; }   /* xanh lá */
+.nav-red   { background-color: #dc3545; }   /* đỏ */
+.nav-blue  { background-color: #007bff; }   /* xanh dương */
+.nav-yellow{ background-color: #ffc107; }   /* vàng */
+
+.navbar-brand, .nav-link { color: #fff !important; font-weight: 500; }
+.nav-link:hover { opacity: 0.9; }
+
+/* CTA Đặt phòng */
+.btn-booking {
+  background-color: #007bff;      /* xanh dương nổi bật */
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  padding: 0.45rem 1rem;
+  border-radius: 0.5rem;
+}
+.btn-booking:hover { filter: brightness(0.95); }
+
+/* Avatar đơn giản với chữ cái */
+.avatar-circle {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #28a745, #dc3545, #007bff, #ffc107);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #111;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+.avatar-circle:hover { filter: brightness(0.9); }
+/* Dropdown menu */
+.dropdown-menu { min-width: 8rem; }
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar-nav { text-align: center; }
+  .nav-item { margin: 0.25rem 0; }
+  .btn-booking { width: 100%; }
+}
+/* Kết thúc Header.css */
+
